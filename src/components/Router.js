@@ -2,10 +2,10 @@ import React from 'react';
 
 import {HashRouter, Route, Switch} from 'react-router-dom';
 
-import Header from './Header';
-import Home from './home/Home.js';
-import About from './about/About.js';
-import Projects from './projects/Projects.js';
+import Header from './common/Header';
+import Home from './home/Home';
+import About from './about/About';
+import ProjectDetails from './projects/ProjectDetails';
 
 const NotFound = () => {
   return(
@@ -20,7 +20,7 @@ const Router = () => {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
-          <Route path="/projects" exact component={Projects} />
+          <Route path="/projects/:id" exact component={ProjectDetails} />
           <Route path="*" exact component={NotFound} />
         </Switch>
 

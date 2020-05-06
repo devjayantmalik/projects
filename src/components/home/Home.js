@@ -1,6 +1,7 @@
 import React from "react";
 
 import Language from "./Language";
+import Loader from '../common/Loader';
 
 import { connect } from "react-redux";
 import { fetchLanguages } from "../../actions";
@@ -8,26 +9,16 @@ import { fetchLanguages } from "../../actions";
 class Home extends React.Component {
     
     componentDidMount() {
-        if(!this.props.languages.length){
-            this.props.fetchLanguages();
-        }
+        this.props.fetchLanguages();
     }
 
     renderLanguages = () => {
         return this.props.languages.map((lang) => <Language key={lang.id} language={lang} />);
     };
 
-    renderLoader = () => (
-        <div className="ui segment">
-            <div className="ui active dimmer">
-                <div className="ui text loader">Loading</div>
-            </div>
-        </div>
-    );
-
     render() {
         if (!this.props.languages.length) {
-            return this.renderLoader();
+            return <Loader title="Please wait, we are fetching languages..." />;
         }
 
         return (

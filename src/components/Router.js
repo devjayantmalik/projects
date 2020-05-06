@@ -7,6 +7,12 @@ import Home from './home/Home.js';
 import About from './about/About.js';
 import Projects from './projects/Projects.js';
 
+const NotFound = () => {
+  return(
+    <h1>Not found.</h1>
+  )
+}
+
 const Router = () => {
     return(
         <HashRouter>
@@ -15,6 +21,7 @@ const Router = () => {
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
           <Route path="/projects" exact component={Projects} />
+          <Route path="*" exact component={NotFound} />
         </Switch>
 
       </HashRouter>

@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "language": 1,
+            "project":{
+                "title": "",
+                "description": "",
+                "level": "Basic",
+                "image": ""
+            }
+        }
+    ],
+    "languages": [
+        {
+            "id": 1,
+            "name": "Javascript",
+            "description": "The language that makes the web dynamic.",
+            "image": "javascript.jpg"
+        },
+        {
+            "id": 2,
+            "name": "C++",
+            "description": "Get the most out of Operating System.",
+            "image": "cpp.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Bootstrap",
+            "description": "Let's style the content on web.",
+            "image": "bootstrap.jpg"
+        },
+        {
+            "id": 4,
+            "name": "HTML + CSS",
+            "description": "Mastering the core skills.",
+            "image": "html-css.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Python",
+            "description": "Making tasks done quickly.",
+            "image": "python.jpg"
+        },
+        {
+            "id": 6,
+            "name": "PWA",
+            "description": "Now, we brought the power of mobile to web.",
+            "image": "pwa.jpg"
+        },
+        {
+            "id": 7,
+            "name": "React Native",
+            "description": "I can code cross platform using Javascript.",
+            "image": "react-native.png"
+        }
+
+
+    ]
+}

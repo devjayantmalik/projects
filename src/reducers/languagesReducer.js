@@ -4,7 +4,7 @@ export default (state = [], action) => {
     // state: list of languages
     switch(action.type){
         case FETCH_LANGUAGES:
-            return [...state, ...action.payload];
+            return action.payload;
         default:
             return state;
     }

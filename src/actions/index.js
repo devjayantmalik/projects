@@ -24,6 +24,6 @@ export const fetchProjectById = (project_id) => {
 }
 
 export const fetchProjectsByLanguage = (language) => {
-    const project = projects.filter(project => project.language === parseInt(language));
+    const project = projects.filter(project => project.language === language);
     return {type: FETCH_PROJECTS_BY_LANGUAGE, payload: project};
 }

@@ -22,7 +22,7 @@ class Projects extends React.Component {
         <div className="ui basic segment">
             <div className="ui link cards">
                 {this.props.projects.map((project) => (
-                    <ProjectCard key={project.id} project={project.project} />
+                    <ProjectCard key={project.id} project={project} />
                 ))}
             </div>
         </div>

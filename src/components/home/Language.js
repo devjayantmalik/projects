@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Language = ({language}) => {
+const Language = ({ language }) => {
     return (
-        <div className="ui card">
+        <Link className="ui card" to={`/language/${language.id}`}>
             <div className="image">
                 <img
                     alt="language cover"
@@ -10,10 +11,12 @@ const Language = ({language}) => {
                 />
             </div>
             <div className="content">
-                <a href="#" className="header">{language.name}</a>
+                <p href="#" className="header">
+                    {language.name}
+                </p>
                 <div className="description">{language.description}</div>
             </div>
-        </div>
+        </Link>
     );
 };
 

@@ -3,7 +3,8 @@
         {
             "id": 1,
             "language": 8,
-            "project":{
+            "url": "https://github.com/devjayantmalik/React-Streams.git",
+            "details":{
                 "title": "Streams",
                 "description": "Application to stream videos online.",
                 "level": "Basic",

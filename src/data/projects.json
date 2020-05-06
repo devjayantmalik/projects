@@ -2,12 +2,19 @@
     "projects": [
         {
             "id": 1,
-            "language": 1,
+            "language": 8,
             "project":{
-                "title": "",
-                "description": "",
+                "title": "Streams",
+                "description": "Application to stream videos online.",
                 "level": "Basic",
-                "image": ""
+                "image": "streams.png",
+                "goals":[
+                    "Master CRUD Operations in React",
+                    "Mastering Redux Thunk",
+                    "Mastering React Redux",
+                    "Mastering Navigation",
+                    "Getting access to DOM Elements using React.createRef()"
+                ]
             }
         }
     ]

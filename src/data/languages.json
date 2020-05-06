@@ -41,6 +41,12 @@
             "name": "React Native",
             "description": "I can code cross platform using Javascript.",
             "image": "react-native.png"
+        },
+        {
+            "id": 8,
+            "name": "ReactJS",
+            "description": "Writing dynamic apps using Javascript.",
+            "image": "reactjs.jpg"
         }
     ]
 }

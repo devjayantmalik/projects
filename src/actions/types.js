@@ -1,0 +1,2 @@
+export const FETCH_LANGUAGES = 'FETCH_LANGUAGES';
+export const FETCH_PROJECTS = 'FETCH_PROJECTS';

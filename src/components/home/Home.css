@@ -1,13 +1,8 @@
-body{
-    background: url('/images/backgrounds/squares.svg');
-    background-color: khaki;
-}
-
 
 .heading{
     color: black;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 1.5em;
     border: 4px solid navy;
     border-style: dashed;
     padding: 4px;

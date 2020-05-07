@@ -109,7 +109,7 @@
                 "image": "js-notes.png",
                 "goals":[
                     "Create Note taking application just using Javascript.",
-                    "Create application that works offline.",
+                    "Create application that works offline."
                 ]
             }
         },
@@ -124,7 +124,7 @@
                 "image": "py-pusher.png",
                 "goals":[
                     "Using Websockets in flask.",
-                    "Learning via tutorial.",
+                    "Learning via tutorial."
                 ]
             }
         },

@@ -7,7 +7,7 @@ const Language = ({ language }) => {
             <div className="image">
                 <img
                     alt="language cover"
-                    src={`${window.location.origin}/images/languages/${language.image}`}
+                    src={`${process.env.PUBLIC_URL}/images/languages/${language.image}`}
                 />
             </div>
             <div className="content">

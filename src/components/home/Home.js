@@ -1,19 +1,22 @@
 import React from "react";
 
 import Language from "./Language";
-import Loader from '../common/Loader';
+import Loader from "../common/Loader";
 
 import { connect } from "react-redux";
 import { fetchLanguages } from "../../actions";
 
+import "./Home.css";
+
 class Home extends React.Component {
-    
     componentDidMount() {
         this.props.fetchLanguages();
     }
 
     renderLanguages = () => {
-        return this.props.languages.map((lang) => <Language key={lang.id} language={lang} />);
+        return this.props.languages.map((lang) => (
+            <Language key={lang.id} language={lang} />
+        ));
     };
 
     render() {
@@ -22,13 +25,15 @@ class Home extends React.Component {
         }
 
         return (
-            <main className="ui basic container">
-                <section className="pusher">
-                    <h2>Languages</h2>
-                    <div className="ui link cards">
-                        {this.renderLanguages()}
-                    </div>
-                </section>
+            <main className="homepage">
+                <div className="ui basic segment">
+                    <section className="pusher">
+                        <h2 className="heading">Programming Languages</h2>
+                        <div className="ui link cards">
+                            {this.renderLanguages()}
+                        </div>
+                    </section>
+                </div>
             </main>
         );
     }

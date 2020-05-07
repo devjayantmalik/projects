@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
             <div className="image">
                 <img
                     alt="language cover"
-                    src={`${window.location.origin}/images/projects/${details.image}`}
+                    src={`${process.env.PUBLIC_URL}/images/projects/${details.image}`}
                 />
             </div>
 

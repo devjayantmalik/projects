@@ -1,171 +1,232 @@
 {
-    "projects": [
-        {
-            "id": 1,
-            "language": 8,
-            "url": "https://github.com/devjayantmalik/React-Streams.git",
-            "details":{
-                "title": "Streams",
-                "description": "Application to stream videos online.",
-                "level": "Basic",
-                "image": "streams.png",
-                "goals":[
-                    "Master CRUD Operations in React",
-                    "Mastering Redux Thunk",
-                    "Mastering React Redux",
-                    "Mastering Navigation",
-                    "Getting access to DOM Elements using React.createRef()"
-                ]
-            }
-        },
-        {
-            "id": 2,
-            "language": 8,
-            "url": "https://devjayantmalik.github.io/reactjs-cards/",
-            "details":{
-                "title": "React Cards",
-                "description": "Application to display Posts Cards like twitter, facebook etc.",
-                "level": "Basic",
-                "image": "react-cards.png",
-                "goals":[
-                    "Using React to create cards like twitter and other social networks.",
-                    "Rendering Content on Screen",
-                    "Using Semantic UI in React App."
-                ]
-            }
-        },
-        {
-            "id": 3,
-            "language": 8,
-            "url": "https://devjayantmalik.github.io/project-2-finance-redux/",
-            "details":{
-                "title": "Finance Redux",
-                "description": "Application to model a finance company.",
-                "level": "Basic",
-                "image": "finance-redux.png",
-                "goals":[
-                    "Mastering Redux in React App.",
-                    "Using Bootstrap in App.",
-                    "Rendering Multiple Components in Single Page.",
-                    "Understanding Single Page Application"
-                ]
-            }
-        },
-        {
-            "id": 4,
-            "language": 3,
-            "url": "https://devjayantmalik.github.io/mailchimp/",
-            "details":{
-                "title": "Mailchimp Clone",
-                "description": "Mailchimp.com website homepage clone.",
-                "level": "Basic",
-                "image": "mailchimp-clone.png",
-                "goals":[
-                    "Creating Real world apps using Bootstrap",
-                    "Using Bootstrap and HTML."
-                ]
-            }
-        },
-        {
-            "id": 5,
-            "language": 8,
-            "url": "https://devjayantmalik.github.io/reactjs-notes/",
-            "details":{
-                "title": "Redux Notes",
-                "description": "Website using Redux.",
-                "level": "Basic",
-                "image": "reactjs-notes.png",
-                "goals":[
-                    "Mastering Redux in React Apps.",
-                    "Using Semantic UI in React."
-                ]
-            }
-        },
-        {
-            "id": 6,
-            "language": 1,
-            "url": "https://flack-chatting.herokuapp.com/",
-            "details":{
-                "title": "Chatting Application",
-                "description": "Pure Javascript chatting application.",
-                "level": "Basic",
-                "image": "js-chatting.png",
-                "goals":[
-                    "Create Full blown application just using Javascript.",
-                    "Convert UI template to Application.",
-                    "Demo Email: indianhelptrust2017@gmail.com",
-                    "Demo Password: 123456"
-                ]
-            }
-        },
-        {
-            "id": 7,
-            "language": 1,
-            "url": "https://devjayantmalik.github.io/notes-app-js/",
-            "details":{
-                "title": "Notes Application",
-                "description": "Pure Javascript notes application.",
-                "level": "Basic",
-                "image": "js-notes.png",
-                "goals":[
-                    "Create Note taking application just using Javascript.",
-                    "Create application that works offline."
-                ]
-            }
-        },
-        {
-            "id": 8,
-            "language": 5,
-            "url": "https://github.com/devjayantmalik/live-dashboard-python",
-            "details":{
-                "title": "Pusher Flask Application",
-                "description": "Python application to use pusher for live updates.",
-                "level": "Basic",
-                "image": "py-pusher.png",
-                "goals":[
-                    "Using Websockets in flask.",
-                    "Learning via tutorial."
-                ]
-            }
-        },
-        {
-            "id": 9,
-            "language": 5,
-            "url": "https://edx-books-app.herokuapp.com/",
-            "details":{
-                "title": "Books Review Flask Application",
-                "description": "Application allows user to review books.",
-                "level": "Basic",
-                "image": "py-books.png",
-                "goals":[
-                    "Handling Authentication in Flask",
-                    "Working with databases.",
-                    "Creating API using flask",
-                    "Using data from other API in flask",
-                    "Using Templates in flask.",
-                    "Using bootstrap to create layouts."
-                ]
-            }
-        },
-        {
-            "id": 10,
-            "language": 8,
-            "url": "https://devjayantmalik.github.io/project-1-counter-redux/",
-            "details":{
-                "title": "Counter Application",
-                "description": "Application allows user to count in numbers.",
-                "level": "Basic",
-                "image": "react-counter.png",
-                "goals":[
-                    "Integrating Redux in React",
-                    "Mastering Redux skills",
-                    "Working with components."
-                ]
-            }
-        }
-        
-
-
-
-    ]
+  "projects": [
+    {
+      "id": 1,
+      "language": 8,
+      "url": "https://github.com/devjayantmalik/React-Streams.git",
+      "details": {
+        "title": "Streams",
+        "description": "Application to stream videos online.",
+        "level": "Basic",
+        "image": "streams.png",
+        "goals": [
+          "Master CRUD Operations in React",
+          "Mastering Redux Thunk",
+          "Mastering React Redux",
+          "Mastering Navigation",
+          "Getting access to DOM Elements using React.createRef()"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "language": 8,
+      "url": "https://devjayantmalik.github.io/reactjs-cards/",
+      "details": {
+        "title": "React Cards",
+        "description": "Application to display Posts Cards like twitter, facebook etc.",
+        "level": "Basic",
+        "image": "react-cards.png",
+        "goals": [
+          "Using React to create cards like twitter and other social networks.",
+          "Rendering Content on Screen",
+          "Using Semantic UI in React App."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "language": 8,
+      "url": "https://devjayantmalik.github.io/project-2-finance-redux/",
+      "details": {
+        "title": "Finance Redux",
+        "description": "Application to model a finance company.",
+        "level": "Basic",
+        "image": "finance-redux.png",
+        "goals": [
+          "Mastering Redux in React App.",
+          "Using Bootstrap in App.",
+          "Rendering Multiple Components in Single Page.",
+          "Understanding Single Page Application"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "language": 3,
+      "url": "https://devjayantmalik.github.io/mailchimp/",
+      "details": {
+        "title": "Mailchimp Clone",
+        "description": "Mailchimp.com website homepage clone.",
+        "level": "Basic",
+        "image": "mailchimp-clone.png",
+        "goals": [
+          "Creating Real world apps using Bootstrap",
+          "Using Bootstrap and HTML."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "language": 8,
+      "url": "https://devjayantmalik.github.io/reactjs-notes/",
+      "details": {
+        "title": "Redux Notes",
+        "description": "Website using Redux.",
+        "level": "Basic",
+        "image": "reactjs-notes.png",
+        "goals": [
+          "Mastering Redux in React Apps.",
+          "Using Semantic UI in React."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "language": 1,
+      "url": "https://flack-chatting.herokuapp.com/",
+      "details": {
+        "title": "Chatting Application",
+        "description": "Pure Javascript chatting application.",
+        "level": "Basic",
+        "image": "js-chatting.png",
+        "goals": [
+          "Create Full blown application just using Javascript.",
+          "Convert UI template to Application.",
+          "Demo Email: indianhelptrust2017@gmail.com",
+          "Demo Password: 123456"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "language": 1,
+      "url": "https://devjayantmalik.github.io/notes-app-js/",
+      "details": {
+        "title": "Notes Application",
+        "description": "Pure Javascript notes application.",
+        "level": "Basic",
+        "image": "js-notes.png",
+        "goals": [
+          "Create Note taking application just using Javascript.",
+          "Create application that works offline."
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "language": 5,
+      "url": "https://github.com/devjayantmalik/live-dashboard-python",
+      "details": {
+        "title": "Pusher Flask Application",
+        "description": "Python application to use pusher for live updates.",
+        "level": "Basic",
+        "image": "py-pusher.png",
+        "goals": ["Using Websockets in flask.", "Learning via tutorial."]
+      }
+    },
+    {
+      "id": 9,
+      "language": 5,
+      "url": "https://edx-books-app.herokuapp.com/",
+      "details": {
+        "title": "Books Review Flask Application",
+        "description": "Application allows user to review books.",
+        "level": "Basic",
+        "image": "py-books.png",
+        "goals": [
+          "Handling Authentication in Flask",
+          "Working with databases.",
+          "Creating API using flask",
+          "Using data from other API in flask",
+          "Using Templates in flask.",
+          "Using bootstrap to create layouts."
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "language": 8,
+      "url": "https://devjayantmalik.github.io/project-1-counter-redux/",
+      "details": {
+        "title": "Counter Application",
+        "description": "Application allows user to count in numbers.",
+        "level": "Basic",
+        "image": "react-counter.png",
+        "goals": [
+          "Integrating Redux in React",
+          "Mastering Redux skills",
+          "Working with components."
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "language": 8,
+      "url": "https://devjayantmalik.github.io/calculator/",
+      "details": {
+        "title": "Calculator",
+        "description": "It is a basic application allowing you perform simple operations.",
+        "level": "Basic",
+        "image": "react-calculator.png",
+        "goals": [
+          "Building Self Confidence",
+          "Mastering ReactJS",
+          "Solving real world problems."
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "language": 8,
+      "url": "https://devjayantmalik.github.io/products/",
+      "details": {
+        "title": "Products",
+        "description": "Application to display various products.",
+        "level": "Basic",
+        "image": "react-products.jpg",
+        "goals": [
+          "Building Self Confidence",
+          "Mastering ReactJS",
+          "Mastering Redux Form."
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "language": 4,
+      "url": "https://devjayantmalik.github.io/shopping-cart-html/index.html",
+      "details": {
+        "title": "Shopping App",
+        "description": "Single Page just to master UI.",
+        "level": "Basic",
+        "image": "html-shopping.png",
+        "goals": ["Building Self Confidence", "Mastering HTML"]
+      }
+    },
+    {
+      "id": 14,
+      "language": 7,
+      "url": "https://github.com/devjayantmalik/pomodoro-timer",
+      "details": {
+        "title": "Promodo Timer",
+        "description": "Timer App using React Native",
+        "level": "Basic",
+        "image": "no-images-available.png",
+        "goals": ["Using React Native", "Using Expo", "Learning from Harvard"]
+      }
+    },
+    {
+      "id": 15,
+      "language": 7,
+      "url": "https://github.com/devjayantmalik/nativebase-components",
+      "details": {
+        "title": "Nativebase Components",
+        "description": "Mastering Nativebase for React Native",
+        "level": "Basic",
+        "image": "no-images-available.png",
+        "goals": ["Using React Native", "Nativebase UI Learning"]
+      }
+    }
+  ]
 }
